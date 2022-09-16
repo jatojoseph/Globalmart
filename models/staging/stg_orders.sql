@@ -7,10 +7,12 @@ o.orderfillingprice - o.ordercostprice As orderprofit,
 ordercostprice,
 orderfillingprice,
 -- from raw customer
+c.customerid,
 c.customername,
 c.segment,
 c.country,
 -- from raw product
+p.productid,
 p.category,
 p.productname,
 p.subcategory
